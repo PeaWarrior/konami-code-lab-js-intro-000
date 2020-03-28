@@ -17,7 +17,7 @@ function init() {
     const key = e.key
     let index = 0
     if (key === codes[index]) {
-      index += 1
+      index ++
       if (index===codes.length){
         alert("Nice!")
       }
