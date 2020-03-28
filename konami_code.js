@@ -11,9 +11,9 @@ const codes = [
   "a"
 ];
 
-let i = 0
-// function init() {
+function init() {
   //   // your code here
+  // let i = 0
   document.body.addEventListener('keydown', (e) => {
     const key = e.key
     console.log(`index${i} key${key}`)
@@ -27,4 +27,4 @@ let i = 0
       i = 0
     }
   });
-// }
+}
